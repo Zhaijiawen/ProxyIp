@@ -2,6 +2,7 @@ from bs4 import BeautifulSoup
 import urllib.request
 import urllib.response
 import urllib.parse
+import sys
 
 baseUrl = "http://www.xicidaili.com/"
 ipType = ("nn", "nt", "wn", "wt")
@@ -22,6 +23,7 @@ try:
     pageNum = int(num)
 except:
     print("出错了，请保持参数的正确性！")
+    sys.exit(0)
 
 # ip存放位置
 proxyIp = []
