@@ -7,3 +7,9 @@
 输入对应网址即可利用代理去访问目标网址。
 
 脚本未保存可用ip。执行结束ip也随之丢失。
+
+环境：
+PyCharm 2018.1.4,
+Python 3.6,
+BeautifulSoup4,
+lxml
